@@ -1,0 +1,81 @@
+body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        main {
+            padding: 1rem
+        }
+
+        .mainHeader {
+            width: 100%;
+            height: 3.5rem;
+            background-color: #dbc441;
+        }
+
+        .mainHeaderNav {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .mainHeaderItemList {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .mainHeaderItem {
+            margin: 0 1rem;
+            padding: 0;
+        }
+
+        .mainHeaderItem a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .mainHeaderItem a:hover,
+        .mainHeaderItem a:active,
+        .mainHeaderItem a.active {
+            color: #3e00a1;
+        }
+        
+        .productForm {
+            width: 20rem;
+            max-width: 90%;
+            margin: auto;
+        }
+
+        .formControl {
+            margin: 1rem 0;
+        }
+
+        .formControl label,
+        .formControl input {
+            display: block;
+            width: 100%;
+        }
+
+        .formControl input {
+            border: 1px solid #dbc441;
+            font: inherit;
+            border-radius: 2px;
+        }
+
+        button {
+            font: inherit;
+            border: 1px solid black;
+            color: #3e00a1;
+            background-color: white;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        button:hover,
+        button:active {
+            background-color: #3e00a1;
+            color: white;
+        }
