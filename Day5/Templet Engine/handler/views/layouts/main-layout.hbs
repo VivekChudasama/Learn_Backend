@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1>rendering form the handlebars</h1>
+    <div>
+        <p>This content is generated using a handlebars template.</p>
+
+        {{#each items }}
+        <ul>
+
+            <li>{{this}}</li>
+
+        </ul>
+        {{/each}}
+    </div>
+</body>
+
+</html>
