@@ -75,8 +75,6 @@ exports.getProducts = (req, res, next) => {
     .catch(err => console.log(err));
 };
 
-//TypeError: Cannot read properties of undefined (reading 'then')
-
 exports.postDeleteProduct = (req, res, next) => {
   const prodId = req.body.productId;
   Product.deleteById(prodId)
